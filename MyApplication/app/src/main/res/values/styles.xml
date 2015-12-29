@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="user_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="edittext_styles" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/editback_style</item>
+    </style>
+
+    <style name="but_style" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/press_style</item>
+    </style>
+    <style name="button_style" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_press_up</item>
+    </style>
+
+    <style name="mypopWindow">
+        <item name="android:windowEnterAnimation">@anim/headimage_enter</item>
+        <item name="android:windowExitAnimation">@anim/headimage_out</item>
+    </style>
+</resources>

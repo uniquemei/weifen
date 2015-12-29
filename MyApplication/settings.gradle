@@ -1,0 +1,1 @@
+include ':app', ':sensor_demo3', ':sensor_demo4'
